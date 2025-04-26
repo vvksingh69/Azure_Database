@@ -1,0 +1,8 @@
+.env
+node_modules
+
+#Terraform files and folders
+infrastructure/.terraform
+infrastructure/.terraform.lock.hcl
+infrastructure/terraform.tfstate
+infrastructure/*.backup

@@ -9,14 +9,14 @@ const databaseId = process.env.DB_ID;
 const productContainerId = process.env.PRODUCTS_CONTAINER_ID;
 const stockContainerId = process.env.STOCK_CONTAINER_ID;
 
-console.log(
-  'DB_CREDS',
-  endpoint,
-  key,
-  databaseId,
-  productContainerId,
-  stockContainerId
-);
+// console.log(
+//   'DB_CREDS',
+//   endpoint,
+//   key,
+//   databaseId,
+//   productContainerId,
+//   stockContainerId
+// );
 
 const client = new CosmosClient({ endpoint, key });
 
